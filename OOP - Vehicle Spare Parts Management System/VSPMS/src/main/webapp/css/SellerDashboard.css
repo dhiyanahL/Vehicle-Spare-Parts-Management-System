@@ -1,0 +1,122 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family :'Quicksand', sans-serif;
+    font-size: 16px; 
+}
+
+/* Container styling */
+.seller-profile {
+    margin: 100px auto; /* Centering the container vertically */
+    max-width : 600px;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #4a90e2, #7bdff2); 
+    /* Light blue background color */
+}
+.seller-profile h2 {
+	font-family :'Quicksand', sans-serif;
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some space below the text */
+    color: #0a2472; /* Set the text color */
+    font-size: 24px; /* Adjust the font size */
+}
+/* Table styling */
+table {
+    width: 100%; /* Reduced width */
+    height: 400px; /* Increased height */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-color: black;
+    background-color: #add8e6; /* Light blue background color */
+}
+
+table td, table th {
+    padding: 20px; /* Increased padding */
+    border-bottom: 1px solid #ddd;
+    text-align: center; /* Center-align text */
+}
+td.label {
+    border-right: 3px solid #ddd;
+    border-color: black; /* Solid vertical line */
+}
+
+td.value{
+	border-bottom : 1px solid #ddd;
+	border-color: black; 
+	color :#00008B;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Button styling */
+.update, .delete {
+	display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+   /* Blue background color */
+    
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Change the font family */
+    font-size: 16px;
+    margin: 0 10px; 
+}
+.button-container {
+    text-align: center; /* Align buttons in the center */
+}
+
+.update{
+	background-color :#cae1ff;
+	color : black;
+}
+
+.delete{
+	background-color: #e34234;
+	color : white;
+}
+.delete:hover {
+background-color :#ffcccc
+}
+
+.update:hover{
+    background-color: #87ceeb; /* Darker blue on hover */
+}
+
+.update:focus, .delete:focus {
+    outline: none;
+}
+
+/* Label and value styling */
+.label {
+    font-weight: bold;
+}
+
+.value {
+    color: #007bff;
+    
+}
+
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+    .seller-profile {
+        margin: 50px auto; /* Centering the container vertically */
+        padding: 10px;
+    }
+}
+
+

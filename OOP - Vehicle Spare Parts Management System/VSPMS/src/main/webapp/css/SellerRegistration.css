@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+/* Main form styling */
+body {
+    margin: 40px 50px;
+    padding: 100px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 500px;
+    width : 90%;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #4a90e2, #7bdff2); 
+    /* Light blue background color */
+     /* Center align text */
+}
+
+.text{
+	text-align : center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    margin: 20px 0; /* Add margin below the button */
+    background-color: #E9C46A; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+form a {
+    text-decoration: none;
+    color: #000;
+}
+
+.label
+{
+	text-align : left;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+}

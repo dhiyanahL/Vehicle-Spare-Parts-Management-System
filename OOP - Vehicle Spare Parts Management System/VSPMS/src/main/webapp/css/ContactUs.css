@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #4a90e2, #7bdff2); /* Light blue gradient background */
+    text-align: center;
+}
+
+/* Header styling */
+.container h1 {
+    margin-bottom: 20px;
+    color: #0a2472; /* Updated text color */
+}
+
+/* Sub-header styling */
+.container h3 {
+    margin-bottom: 15px;
+    color: #fff; /* White text color */
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    padding: 10px 70px; /* Added padding */
+    border: 1px solid #0a2472; /* Updated border color */
+    border-radius: 5px;
+    background-color: #d1d8e0; /* Light grayish-blue background color */
+    color: #0a2472; /* Updated text color */
+}
+
+
+.contact-info h4 {
+    margin-bottom: 10px;
+}
+
+/* Form container styling */
+.form-container {
+    margin-top: 20px;
+}
+
+/* Label styling */
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Textarea styling */
+textarea {
+    width: calc(100% - 40px); /* Reduced width */
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #0a2472; /* Updated border color */
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+.submit-button {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E9C46A; /* Light blue button background color */
+    color: #000; /* Black text color */
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #87ceeb; /* Darker blue on hover */
+}
+

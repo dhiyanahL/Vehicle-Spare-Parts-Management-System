@@ -1,0 +1,74 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+/* Main form styling */
+body {
+    margin: 40px 50px;
+    padding: 100px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete h2{
+	font-family :'Quicksand', sans-serif;
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some space below the text */
+    color: #0a2472; /* Set the text color */
+    font-size: 24px; /* Adjust the font size */
+}
+form {
+    max-width: 600px;
+    width: 90%;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #4a90e2, #7bdff2);
+}
+
+.label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.value input[type="text"],
+.value input[type="email"],
+.value input[type="password"] {
+    width: 150%;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.submit {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    margin: 20px 0;
+    background-color: #E9C46A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+}

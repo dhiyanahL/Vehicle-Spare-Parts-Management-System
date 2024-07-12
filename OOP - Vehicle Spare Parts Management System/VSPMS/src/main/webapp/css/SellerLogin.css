@@ -1,0 +1,74 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; 
+}
+
+/* Container styling */
+.login-form {
+    margin: 100px auto; /* Centering the container vertically */
+    max-width: 400px;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #4a90e2, #7bdff2); /* Light blue gradient background */
+	text-align: center;
+}
+
+.login-form h1 {
+    margin-bottom: 30px; /* Add space below the header */
+}
+/* Input textbox styling */
+.input_textbox input {
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+/* Login button styling */
+.loginButton {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #E9C46A; /* Light blue button background color */
+    color: #000; /* Black text color */
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background-color: #87ceeb; /* Darker blue on hover */
+}
+
+/* Registration link styling */
+.register {
+    text-align: center;
+    font-size: 15px;
+    color: black; /* White text color */
+}
+.register a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+}
+.register a:hover {
+    text-decoration: underline;
+}
+
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+    .login-form {
+        margin: 50px auto; /* Centering the container vertically */
+        padding: 20px;
+    }
+}

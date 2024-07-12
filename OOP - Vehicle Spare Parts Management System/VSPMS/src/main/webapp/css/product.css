@@ -1,0 +1,165 @@
+@charset "ISO-8859-1";
+
+:root {
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Raleway", sans-serif;
+  }
+  
+  /* Global Colors */
+  :root {
+    --background-color: #ffffff;
+    --background-color-rgb: 255, 255, 255;
+    --default-color: #212529;
+    --default-color-rgb: 33, 37, 41;
+    --heading-color: #7a6960;
+    --heading-color-rgb: 122, 105, 96;
+    --accent-color: #eb5d1e;
+    --accent-color-rgb: 235, 93, 30;
+    --contrast-color: #ffffff;
+    --contrast-color-rgb: 255, 255, 255;
+  }
+  
+  /* Nav Menu Colors */
+  :root {
+    --nav-color: #212529;
+    --nav-hover-color: #eb5d1e;
+    --nav-dropdown-color: #212529;
+    --nav-dropdown-hover-color: #eb5d1e;
+    --nav-dropdown-background-color: #ffffff;
+  }
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+  }
+  
+  
+  
+  /* Styles for buttons */
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-inline-end: 10px;
+  background-color: #f08255;
+  color: var(--contrast-color);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--nav-hover-color);
+}
+
+.button:focus {
+  outline: none;
+}
+
+
+.heading {
+  margin-bottom: 20px;
+  margin-top: 0; 
+}
+
+.button input[type="submit"],
+.button input[type="button"] {
+  background-color: #f08255;;
+  color: var(--contrast-color);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button input[type="submit"]:hover,
+.button input[type="button"]:hover {
+  background-color: var(--nav-hover-color);
+}
+
+.button input[type="submit"]:focus,
+.button input[type="button"]:focus {
+  outline: none;
+}
+
+/* Styles for table */
+.tableDisplay {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px auto;
+  margin: 0 auto;
+}
+
+.tableDisplay th,
+.tableDisplay td {
+  border: 1px solid var(--default-color);
+  padding: 8px;
+}
+
+.tableDisplay th {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.card-details {
+  background-color:  linear-gradient(to bottom right, #f7d9c4, #fce8e6); /* Background color for the form */
+  padding: 20px; /* Add padding to the form */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.container {
+  margin: 50px auto; /* Center the container */
+  max-width: 500px; /* Set maximum width */
+  overflow: hidden; /* Crop the content */
+}
+
+.card-details input[type="text"],
+.card-details select {
+  margin-bottom: 10px; /* Add margin bottom to create space between elements */
+  padding: 4px; /* Add padding for better visual appearance */
+}
+
+.gallery-item {
+  display: inline-block; /* Display gallery items inline */
+  margin-right: 20px; /* Add some right margin for spacing */
+  margin-bottom: 20px;
+  margin-inline-end: 10px;
+  vertical-align: top; /* Align items to the top */
+  width: 30%; /* Set width to a percentage for responsiveness */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.member-info {
+  text-align: center; /* Center text horizontally */
+}
+
+.gallery {
+  display: flex; /* Make the gallery container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap on multiple lines if needed */
+}
+
+.error {
+            color: red;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+  
