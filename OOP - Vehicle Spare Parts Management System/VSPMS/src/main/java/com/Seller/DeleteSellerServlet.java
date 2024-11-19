@@ -1,4 +1,4 @@
-//IT22055262 - LIYAUDEEN D.H - Seller CRUD 
+//LIYAUDEEN D.H - Seller CRUD 
 package com.Seller;
 
 import java.io.IOException;
