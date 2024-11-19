@@ -11,7 +11,7 @@ import com.Seller.Seller;
 
 
 
-//IT22055262 - LIYAUDEEN D.H - Seller CRUD 
+//LIYAUDEEN D.H - Seller CRUD 
 public class SellerDB {
 	
 	private static boolean isSuccess;
