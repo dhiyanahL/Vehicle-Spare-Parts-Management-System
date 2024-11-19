@@ -1,4 +1,4 @@
-<!-- IT22055262 - LIYAUDEEN D.H - Seller CRUD -->
+<!-- LIYAUDEEN D.H - Seller CRUD -->
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
